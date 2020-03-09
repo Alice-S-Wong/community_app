@@ -1,0 +1,2 @@
+class AnswerBookmark < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class QuestionBookmark < ApplicationRecord
+end
