@@ -1,0 +1,7 @@
+{
+  id: @answer.id,
+  title: @answer.title,
+  body: @answer.body,
+  user: @answer.user.name,
+  datetime: @answer.friendly_datetime
+}

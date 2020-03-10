@@ -1,0 +1,8 @@
+@question_bookmarks.map do |question_bookmark|
+  {
+    title: question_bookmark.question.title,
+    body: question_bookmark.question.body,
+    user: question_bookmark.question.user.name,
+    datetime: question_bookmark.question.friendly_datetime,
+  }
+end

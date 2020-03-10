@@ -1,0 +1,8 @@
+@answer_bookmarks.map do |answer_bookmark|
+  {
+    title: answer_bookmark.answer.title,
+    body: answer_bookmark.answer.body,
+    user: answer_bookmark.answer.user.name,
+    datetime: answer_bookmark.answer.friendly_datetime,
+  }
+end
