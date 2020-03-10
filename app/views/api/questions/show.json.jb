@@ -1,0 +1,14 @@
+{
+  id: @question.id,
+  title: @question.title,
+  body: @question.body,
+  user: @question.user.name,
+  datetime: @question.friendly_datetime,
+  answers: @question.answers.map do |answer|
+    {
+      title: answer.title,
+      body: answer.body,
+      user: answer.user.name,
+    }
+  end
+}

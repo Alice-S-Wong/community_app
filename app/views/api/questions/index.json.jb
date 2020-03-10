@@ -1,0 +1,9 @@
+@questions.map do |question|
+  {
+    id: question.id,
+    title: question.title,
+    body: question.body,
+    user: question.user.name,
+    datetime: question.friendly_datetime
+  }
+end
